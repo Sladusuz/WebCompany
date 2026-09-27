@@ -2,9 +2,15 @@
 
 O'zbekistondagi IT-kompaniya uchun professional korporativ veb-sayt: animatsiyali marketing sahifalari, portfolio, xizmatlar va murojaatlarni boshqarish uchun to'liq admin panel. Sayt **o'zbek, rus va ingliz** tillarida ishlaydi (`/`, `/ru`, `/en`).
 
+### 🔗 Jonli ko'rish (statik preview)
+
+**[sladusuz.github.io/WebCompany/uz](https://sladusuz.github.io/WebCompany/uz)** — GitHub Pages orqali joylashtirilgan, hech qanday ro'yxatdan o'tishsiz ochiladigan ko'rish uchun havola (`gh-pages` branch, `.github/workflows/deploy-pages.yml` orqali avtomatik yangilanadi).
+
+> Bu faqat statik (o'qish uchun) preview: admin panel va murojaat formasi bu yerda ishlamaydi, chunki GitHub Pages'da server/ma'lumotlar bazasi yo'q. To'liq ishlaydigan versiya uchun quyidagi "Joylashtirish" bo'limiga qarang yoki lokal ishga tushiring.
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Sladusuz/WebCompany&env=JWT_SECRET,ADMIN_EMAIL,ADMIN_PASSWORD&envDescription=Admin%20panel%20uchun%20maxfiy%20kalit%20va%20login%20ma%27lumotlari&project-name=webcompany&repository-name=webcompany)
 
-> Vercel'dagi tez ko'rish (preview) uchun tugma bosing. **Diqqat:** Vercel serverless bo'lgani uchun SQLite yozuvlari (yangi murojaatlar, admin orqali kiritilgan o'zgarishlar) build'lar orasida saqlanib qolmaydi — faqat ko'rib chiqish uchun mos. To'liq ishlaydigan (yozish ham saqlanadigan) versiya uchun quyidagi "Joylashtirish" bo'limiga qarang.
+> To'liq funksional (admin panel bilan) versiyani Vercel'da sinab ko'rish uchun tugmani bosing. **Diqqat:** Vercel serverless bo'lgani uchun SQLite yozuvlari (yangi murojaatlar, admin orqali kiritilgan o'zgarishlar) build'lar orasida saqlanib qolmaydi.
 
 ## Texnologiyalar
 
